@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 // test 1
-// test 2
+
 public class PlayerControl : MonoBehaviour
 {
     public Rigidbody2D rb;
