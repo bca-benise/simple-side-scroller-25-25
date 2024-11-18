@@ -1,8 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// HERE IS A BAD COMMENT CHANGE
-// THIS SHOULD GET REJECTED
+
 
 public class PlayerControl : MonoBehaviour
 {
