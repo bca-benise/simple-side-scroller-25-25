@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// test 1
+// HERE IS A BAD COMMENT CHANGE
+// THIS SHOULD GET REJECTED
 
 public class PlayerControl : MonoBehaviour
 {
@@ -22,11 +23,11 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(3, rb.velocity.y);
+        rb.velocity = new Vector2(4, rb.velocity.y);
         onGround = Physics2D.OverlapCircle(groundChecker.position, groundCheckRadius, groundLayer);
         if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown("space")) && onGround)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 8);
+            rb.velocity = new Vector2(rb.velocity.x, 9);
         }
     }
 }
